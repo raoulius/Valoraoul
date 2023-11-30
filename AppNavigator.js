@@ -12,6 +12,7 @@ import GameModesScreen from './pages/GameModesScreen';
 import GameModeDetail from './pages/GameModesDetail';
 
 
+
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
 
@@ -72,6 +73,7 @@ const MainStack = () => (
       },
       headerTintColor: 'black',
     }} />
+     
   </Stack.Navigator>
 );
 
@@ -106,6 +108,7 @@ const AppNavigator = () => {
         <Tab.Screen name="Wiki" component={MainStack} />
         <Tab.Screen name="About" component={AboutPage} />
         <Tab.Screen name="Profile" component={Profil} />
+
       </Tab.Navigator>
     </NavigationContainer>
   );

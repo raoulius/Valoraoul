@@ -15,9 +15,8 @@ const Main_Screen = () => {
     navigation.navigate('GameModesScreen');
   };
 
-  const navigateToWeapons = () => {
-    navigation.navigate('weaponScreen');
-;  }
+  
+;  
 
   return (
     <View style={styles.container}>
@@ -34,9 +33,7 @@ const Main_Screen = () => {
         <Text style={styles.navigationText}>GAME MODES</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={navigateToWeapons} style={styles.navigationButton}>
-        <Text style={styles.navigationText}>WEAPONS</Text>
-      </TouchableOpacity>
+     
     </View>
   );
 };

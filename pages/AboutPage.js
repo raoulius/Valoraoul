@@ -10,7 +10,7 @@ const AboutPage = () => {
 
   const fetchProvinces = async () => {
     try {
-      const response = await fetch('http://api.codespade.com:4517/codespade/api/bahasa-daerah/provinsi');
+
       const result = await response.json();
 
       setProvinces(result);
